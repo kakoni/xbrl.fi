@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:fi-sbr-mun-dim-MD071="http://www.xbrl.fi/sbr/mun/dimensions/fi-sbr-mun-dim-MD071/01-01-2015" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:num="http://www.xbrl.org/dtr/type/numeric" elementFormDefault="qualified" targetNamespace="http://www.xbrl.fi/sbr/mun/dimensions/fi-sbr-mun-dim-MD071/01-01-2015" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fi-sbr-types="http://www.xbrl.fi/sbr/types/01-01-2013" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2006/ref" schemaLocation="http://www.xbrl.org/2006/ref-2006-02-27.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.xbrl.fi/sbr/types/01-01-2013" schemaLocation="../../data_types/fi-sbr-types-01-01-2013.xsd"/>
+  <xsd:element name="RawMaterialsConsumablesAndGoodsBreakdownDimension" id="fi-sbr-mun-dim-MD071_RawMaterialsConsumablesAndGoodsBreakdownDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="fi-sbr-mun-dim-MD071_AllRawMaterialsConsumablesAndGoodsDefault" xbrli:periodType="duration" abstract="true" name="AllRawMaterialsConsumablesAndGoodsDefault" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_OfficeAndSchoolSupplies" xbrli:periodType="duration" abstract="true" name="OfficeAndSchoolSupplies" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_Literature" xbrli:periodType="duration" abstract="true" name="Literature" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_Groceries" xbrli:periodType="duration" abstract="true" name="Groceries" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_Clothing" xbrli:periodType="duration" abstract="true" name="Clothing" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_MedicinesAndCareAccessories" xbrli:periodType="duration" abstract="true" name="MedicinesAndCareAccessories" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_CleansingMaterialsAndSupplies" xbrli:periodType="duration" abstract="true" name="CleansingMaterialsAndSupplies" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_FuelsAndLubricants" xbrli:periodType="duration" abstract="true" name="FuelsAndLubricants" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_Heating" xbrli:periodType="duration" abstract="true" name="Heating" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_ElectricityAndGas" xbrli:periodType="duration" abstract="true" name="ElectricityAndGas" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_Water" xbrli:periodType="duration" abstract="true" name="Water" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_Equipment" xbrli:periodType="duration" abstract="true" name="Equipment" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_BuildingMaterial" xbrli:periodType="duration" abstract="true" name="BuildingMaterial" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD071_OtherMaterial" xbrli:periodType="duration" abstract="true" name="OtherMaterial" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+</xsd:schema>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:fi-sbr-mun-dim-MD063="http://www.xbrl.fi/sbr/mun/dimensions/fi-sbr-mun-dim-MD063/01-01-2015" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:num="http://www.xbrl.org/dtr/type/numeric" elementFormDefault="qualified" targetNamespace="http://www.xbrl.fi/sbr/mun/dimensions/fi-sbr-mun-dim-MD063/01-01-2015" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:fi-sbr-types="http://www.xbrl.fi/sbr/types/01-01-2013" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/2006/ref" schemaLocation="http://www.xbrl.org/2006/ref-2006-02-27.xsd"/>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://www.xbrl.fi/sbr/types/01-01-2013" schemaLocation="../../data_types/fi-sbr-types-01-01-2013.xsd"/>
+  <xsd:element name="CurrentAssetsInvestmentsBreakdownDimension" id="fi-sbr-mun-dim-MD063_CurrentAssetsInvestmentsBreakdownDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element id="fi-sbr-mun-dim-MD063_AllCurrentAssetsInvestments" xbrli:periodType="duration" abstract="true" name="AllCurrentAssetsInvestments" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD063_SharesAndInterests" xbrli:periodType="duration" abstract="true" name="SharesAndInterests" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD063_InvestmentInMoneyMarketInstruments" xbrli:periodType="duration" abstract="true" name="InvestmentInMoneyMarketInstruments" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD063_DebentureBondReceivables" xbrli:periodType="duration" abstract="true" name="DebentureBondReceivables" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD063_OtherSecurities" xbrli:periodType="duration" abstract="true" name="OtherSecurities" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD063_InvestmentFundSharesTotal" xbrli:periodType="duration" abstract="true" name="InvestmentFundSharesTotal" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+  <xsd:element id="fi-sbr-mun-dim-MD063_OtherNonSpecifiedSecurities" xbrli:periodType="duration" abstract="true" name="OtherNonSpecifiedSecurities" nillable="true" substitutionGroup="xbrli:item" type="fi-sbr-types:domainItemType" />
+</xsd:schema>
